@@ -1,6 +1,6 @@
 TP Git
 
-Durée: 1h30
+Durée: 3h
 
 Objectifs
 - Comprendre les concepts fondamentaux de Git: historique, branches, fusion, remote.
