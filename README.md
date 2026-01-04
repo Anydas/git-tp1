@@ -41,7 +41,7 @@ Déroulé et répartition
 - Exercice 7 — Réaliser une PR: 10 min
 - Exercice 8 — Utilisation de github desktop: 1 heure
 
-**Exercice 1** — Commits simples (15 min)
+**Exercice 1** — Commits simples (15 min)  
 Objectif: Faire plusieurs commits significatifs et naviguer dans l'historique.
 
 Étapes:
@@ -62,7 +62,7 @@ git log --oneline --graph --decorate -n 5
 Indice: utilisez `git show <commit>` pour voir le contenu d'un commit.
 
 
-**Exercice 2** — Branches locales (20 min)
+**Exercice 2** — Branches locales (20 min)  
 Objectif: Créer une branche, y travailler, puis revenir sur `main`.
 
 Étapes:
@@ -83,7 +83,7 @@ git log --oneline --graph --all
 
 Indice: si vous voulez conserver la branche après le merge, notez que `git branch -d feature-x` la supprimera si merge effectué.
 
-**Exercice 3** — Merge et résolution de conflits (20 min)
+**Exercice 3** — Merge et résolution de conflits (20 min)  
 Objectif: Créer un conflit volontaire, apprendre à le résoudre.
 
 Étapes:
@@ -109,7 +109,7 @@ git commit -m "Resolve conflict between main and conflict-branch"
 
 Indice: `git status` montre les fichiers en conflit; `git mergetool` peut aider.
 
-**Exercice 4** — Remote local (bare) et push/pull (15 min)
+**Exercice 4** — Remote local (bare) et push/pull (15 min)  
 Objectif: Configurer un dépôt distant local (bare) et pousser/puller.
 
 Étapes (local remote):
@@ -132,7 +132,7 @@ git checkout main
 
 Indice: `--bare` crée un dépôt sans working tree, idéal pour simuler un remote local.
 
-**Exercice 5** — Amend, rebase interactif et nettoyage (10 min)
+**Exercice 5** — Amend, rebase interactif et nettoyage (10 min)  
 Objectif: Corriger le dernier commit, réordonner/squasher des commits.
 
 Étapes pour amend:
@@ -150,7 +150,7 @@ git rebase -i HEAD~2
 
 Indice: évitez de rebase des commits déjà poussés sur un remote partagé sans coordination.
 
-**Exercice 6** — Travailler sur un repo distant (10 min)
+**Exercice 6** — Travailler sur un repo distant (10 min)  
 Objectif: être capable d'effectuer des opérations sur un repo distant.
 
 Pre-requis: un compte actif sur github 
@@ -186,7 +186,7 @@ git push origin develop
 Retourner sur la branch main et creer de la même façon un fichier main.txt
 Push ce fichier sur le repos distant comme vu precedement.
 
-**Exercice 7** — Réaliser une pull request (10 min)
+**Exercice 7** — Réaliser une pull request (10 min)  
 Objectif: être capable de réaliser une pull request
 
 Pull request: propositions pour intégrer les modifications de code dans un projet. La pull request est soumise aux autres membres du projet afin de réaliser une relecture de code avant le merge definitif dans la branche principale du projet
@@ -207,7 +207,7 @@ Une fois les potentiels conflits resolus, appuyer sur "Merge pull request" puis 
 
 Dans le cas où vous souhaitez refuser une pull request, il vous suffit d'appuyer sur "close pull request" au lieu de "Merge pull request".
 
-**Exercice 8** — Utilisation de github desktop (1 heure)
+**Exercice 8** — Utilisation de github desktop (1 heure)  
 Objectif: être capable de réaliser des opérations basiques sur git via une interface graphique
 
 __La suite du tp est à réaliser sur windows__
